@@ -3,13 +3,13 @@
 namespace App\Http\Controllers\Apis;
 
 use App\Models\Tag;
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\Controller\Apis;
 use App\Http\Requests\StoreTagRequest;
 use App\Http\Requests\UpdateTagRequest;
 
 
 
-class PostController extends Controller
+class TagController extends Controller
 {
     public function index()
     {
